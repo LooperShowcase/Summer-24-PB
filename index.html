@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <!--
+// v0 by Vercel.
+// https://v0.dev/t/xvdl53pV5Mc
+-->
+
+<div class="flex flex-col min-h-dvh">
+  <header class="bg-primary text-primary-foreground py-4 px-6 flex items-center justify-between">
+    <a class="flex items-center gap-2" href="#">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="h-8 w-8"
+      >
+        <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+      </svg>
+      <span class="text-xl font-bold">PB</span>
+    </a>
+    <nav class="hidden md:flex items-center gap-6">
+      <a class="hover:underline" href="#">
+        Home
+      </a>
+      <a class="hover:underline" href="#">
+        About
+      </a>
+      <a class="hover:underline" href="#">
+        Products
+      </a>
+      <a class="hover:underline" href="#">
+        Donate
+      </a>
+    </nav>
+    <button class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 md:hidden">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="h-6 w-6"
+      >
+        <line x1="4" x2="20" y1="12" y2="12"></line>
+        <line x1="4" x2="20" y1="6" y2="6"></line>
+        <line x1="4" x2="20" y1="18" y2="18"></line>
+      </svg>
+      <span class="sr-only">Toggle Menu</span>
+    </button>
+  </header>
+  <main class="flex-1">
+    <section class="bg-primary py-12 md:py-20 lg:py-28">
+      <div class="container px-4 md:px-6 grid md:grid-cols-2 gap-8 items-center">
+        <div>
+          <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold text-primary-foreground">
+            Discover the Sweetness of PB
+          </h1>
+          <p class="text-lg md:text-xl text-primary-foreground mt-4">
+            Savor the pure, natural goodness of our delectable honey, while supporting our mission to save the bees.
+          </p>
+          <div class="mt-6 flex gap-4">
+            <a
+              href="#"
+              class="inline-flex h-10 items-center justify-center rounded-md bg-primary-foreground px-6 py-2 text-sm font-medium text-primary shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
+            >
+              Shop Now
+            </a>
+            <a
+              href="#"
+              class="inline-flex h-10 items-center justify-center rounded-md border border-primary-foreground bg-primary px-6 py-2 text-sm font-medium text-primary-foreground shadow-sm transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
+            >
+              Donate
+            </a>
+          </div>
+        </div>
+        <img
+          src="https://www.cuckoosnest.eu/cdn/shop/articles/honey-650_650x400_61522829297_800x.jpg?v=1548404321."
+          width="600"
+          height="400"
+          alt="Honey"
+          class="mx-auto rounded-lg object-cover"
+          style="aspect-ratio: 600 / 400; object-fit: cover;"
+        />
+      </div>
+    </section>
+    <section id="about" class="py-12 md:py-20 lg:py-28">
+      <div class="container px-4 md:px-6 grid md:grid-cols-2 gap-8 items-center">
+        <img
+          
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPSfIvpoJY1I8m2zk3_vr6_98lriBGQ_Jl4Y9hU5kIXtP0hV-O"
+          width="600"
+          height="400"
+          alt="Bees"
+          style="aspect-ratio: 600 / 400; object-fit: cover;"
+          class="mx-auto rounded-lg object-cover"
+        />
+        <div>
+          <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold">Our Mission: Saving the Bees</h2>
+          <p class="text-lg md:text-xl mt-4">
+            At PB, we're passionate about preserving the vital role of bees in our ecosystem. A portion of every
+            purchase goes towards supporting local beekeepers and funding research to protect these essential
+            pollinators.
+          </p>
+          <a
+            href="#"
+            class="inline-flex h-10 items-center justify-center rounded-md bg-primary px-6 py-2 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 mt-6"
+          >
+            Learn More
+          </a>
+        </div>
+      </div>
+    </section>
+    <section id="products" class="py-12 md:py-20 lg:py-28 bg-muted">
+      <div class="container px-4 md:px-6">
+        <div class="text-center space-y-4">
+          <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold">Explore Our Products</h2>
+          <p class="text-lg md:text-xl text-muted-foreground">
+            Discover our delectable honey, cozy shirts, and stylish bags.
+          </p>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mt-8">
+          <div class="bg-background rounded-lg shadow-lg overflow-hidden">
+            <img
+              
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1E9Um2qD5Nfcfk1mJ_remkaBtrYE_mkjzIg&s"
+              width="400"
+              height="300"
+              alt="Honey"
+              class="w-full h-64 object-cover"
+              style="aspect-ratio: 400 / 300; object-fit: cover;"
+            />
+            <div class="p-4">
+              <h3 class="text-xl font-bold">Pure Honey</h3>
+              <p class="text-muted-foreground mt-2">Savor the natural sweetness of our pure, raw honey.</p>
+              <div class="flex items-center justify-between mt-4">
+                <span class="text-lg font-semibold">$12.99</span>
+                <a
+                  href="#"
+                  class="inline-flex h-8 items-center justify-center rounded-md bg-primary px-4 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
+                >
+                  Buy Now
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="bg-background rounded-lg shadow-lg overflow-hidden">
+            <img
+              
+              src="https://m.media-amazon.com/images/I/A13usaonutL._CLa%7C2140%2C2000%7C81xM2PYy4AL.png%7C0%2C0%2C2140%2C2000%2B0.0%2C0.0%2C2140.0%2C2000.0_AC_UY1000_.png"
+              width="400"
+              height="300"
+              alt="Shirt"
+              class="w-full h-64 object-cover"
+              style="aspect-ratio: 400 / 300; object-fit: cover;"
+            />
+            <div class="p-4">
+              <h3 class="text-xl font-bold">Friendly PB Shirt</h3>
+              <p class="text-muted-foreground mt-2">
+                Wear your support for our mission with our cozy, sustainable shirts.
+              </p>
+              <div class="flex items-center justify-between mt-4">
+                <span class="text-lg font-semibold">$24.99</span>
+                <a
+                  href="#"
+                  class="inline-flex h-8 items-center justify-center rounded-md bg-primary px-4 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
+                >
+                  Buy Now
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="bg-background rounded-lg shadow-lg overflow-hidden">
+            <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6sr0FZcsxkd8qEniM-qbfD-zUMClpBIFImA&s"
+              width="400"
+              height="300"
+              alt="Bag"
+              style="aspect-ratio: 400 / 300; object-fit: cover;"
+              class="w-full h-64 object-cover"
+            />
+            <div class="p-4">
+              <h3 class="text-xl font-bold">Friendly PB Bag</h3>
+              <p class="text-muted-foreground mt-2">
+                Carry your essentials in style with our eco-friendly, bee-themed bags.
+              </p>
+              <div class="flex items-center justify-between mt-4">
+                <span class="text-lg font-semibold">$29.99</span>
+                <a
+                  href="#"
+                  class="inline-flex h-8 items-center justify-center rounded-md bg-primary px-4 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
+                >
+                  Buy Now
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="donate" class="py-12 md:py-20 lg:py-28">
+      <div class="container px-4 md:px-6 grid md:grid-cols-2 gap-8 items-center">
+        <div>
+          <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold">Donate $10 to Save the Bees</h2>
+          <p class="text-lg md:text-xl mt-4">
+            Your donation of $10 will help support local beekeepers, fund research, and protect these essential
+            pollinators.
+          </p>
+          <div class="mt-6">
+            <button class="whitespace-nowrap ring-offset-background focus-visible:ring-offset-2 bg-primary inline-flex h-10 items-center justify-center rounded-md px-6 py-2 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50">
+              Donate $10
+            </button>
+          </div>
+        </div>
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgJY9QQkKinRIx8V2k-zcKo1Gue9Xkorb0zg&s"
+          width="600"
+          height="400"
+          alt="Bees"
+          style="aspect-ratio: 600 / 400; object-fit: cover;"
+          class="mx-auto rounded-lg object-cover"
+        />
+      </div>
+    </section>
+  </main>
+  <footer class="bg-muted text-muted-foreground py-6 px-4 md:px-6">
+    <div class="container flex flex-col md:flex-row items-center justify-between">
+      <div class="flex items-center gap-2">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="h-6 w-6"
+        >
+          <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+        </svg>
+        <span class="text-lg font-bold">PB</span>
+      </div>
+      <nav class="flex items-center gap-4 mt-4 md:mt-0"></nav>
+    </div>
+  </footer>
+</div>
+</body>
+</html>
